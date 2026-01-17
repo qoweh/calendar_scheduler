@@ -90,9 +90,14 @@ class ScheduleProvider extends ChangeNotifier {
     required DateTime date,
     required String id,
   }) async {
-    final targetSchedule = cache[date]!.firstWhere(
-      (e) => e.id == id,
-    );
+    final schedules = cache[date];
+    if (schedules == null ||
+        !schedules.any((e) => e.id == id)) {
+      return;
+    }
+
+    final targetSchedule =
+        schedules.firstWhere((e) => e.id == id);
 
     cache.update(
       date,
