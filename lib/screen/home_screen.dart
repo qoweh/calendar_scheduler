@@ -42,7 +42,7 @@ class HomeScreen extends StatelessWidget {
             ),
           );
         },
-        child: Icon(
+        child: const Icon(
           Icons.add,
         ),
       ),
@@ -59,13 +59,13 @@ class HomeScreen extends StatelessWidget {
                   onDaySelected(
                       selectedDate, focusedDate, context),
             ),
-            SizedBox(height: 8.0),
+            const SizedBox(height: 8.0),
             TodayBanner(
               // ➊ 배너 추가하기
               selectedDate: selectedDate,
-              count: 0,
+              count: schedules.length,
             ),
-            SizedBox(height: 8.0),
+            const SizedBox(height: 8.0),
             Expanded(
               child: ListView.builder(
                 itemCount: schedules.length,
