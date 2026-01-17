@@ -1,0 +1,1 @@
+ /Users/pilt/project-collection/flutter/calendar_scheduler/.dart_tool/flutter_build/24f0549fa54bd93916ee4747bf300f45/native_assets.json: 

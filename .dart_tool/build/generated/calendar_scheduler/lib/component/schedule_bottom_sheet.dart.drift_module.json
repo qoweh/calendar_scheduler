@@ -1,0 +1,8 @@
+{
+  "elements": {},
+  "imports": [
+    "package:calendar_scheduler/component/custom_text_field.dart",
+    "package:calendar_scheduler/const/colors.dart",
+    "package:flutter/material.dart"
+  ]
+}
