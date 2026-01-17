@@ -1,582 +1,65 @@
-➜  calendar_scheduler git:(main) ls -R
-android                ios                    README.md
-build                  linux                  windows
-calendar_scheduler.iml macos
-
-./android:
-app                            gradlew
-calendar_scheduler_android.iml gradlew.bat
-gradle                         local.properties
-
-./android/app:
-src
-
-./android/app/src:
-main
-
-./android/app/src/main:
-java
-
-./android/app/src/main/java:
-io
-
-./android/app/src/main/java/io:
-flutter
-
-./android/app/src/main/java/io/flutter:
-plugins
-
-./android/app/src/main/java/io/flutter/plugins:
-GeneratedPluginRegistrant.java
-
-./android/gradle:
-wrapper
-
-./android/gradle/wrapper:
-gradle-wrapper.jar
-
-./build:
-6ab642d2d29d49c7c5f5a6d85fcef46b.cache.dill.track.dill
-c138905a1884bff14ad0fb314797b868
-ios
-native_assets
-native_hooks
-
-./build/c138905a1884bff14ad0fb314797b868:
-_composite.stamp                 gen_dart_plugin_registrant.stamp
-dart_build_result.json           gen_localizations.stamp
-dart_build.d                     outputs.json
-dart_build.stamp
-
-./build/ios:
-Debug-iphonesimulator  pod_inputs.fingerprint
-iphonesimulator        XCBuildData
-
-./build/ios/Debug-iphonesimulator:
-App.framework            path_provider_foundation Runner.swiftmodule
-Flutter                  Pods_Runner.framework    sqlite3
-Flutter.framework        Runner.app               sqlite3_flutter_libs
-
-./build/ios/Debug-iphonesimulator/App.framework:
-_CodeSignature App            flutter_assets Info.plist
-
-./build/ios/Debug-iphonesimulator/App.framework/_CodeSignature:
-CodeResources
-
-./build/ios/Debug-iphonesimulator/App.framework/flutter_assets:
-AssetManifest.bin         kernel_blob.bin           shaders
-FontManifest.json         NativeAssetsManifest.json vm_snapshot_data
-fonts                     NOTICES.Z
-isolate_snapshot_data     packages
-
-./build/ios/Debug-iphonesimulator/App.framework/flutter_assets/fonts:
-MaterialIcons-Regular.otf
-
-./build/ios/Debug-iphonesimulator/App.framework/flutter_assets/packages:
-cupertino_icons
-
-./build/ios/Debug-iphonesimulator/App.framework/flutter_assets/packages/cupertino_icons:
-assets
-
-./build/ios/Debug-iphonesimulator/App.framework/flutter_assets/packages/cupertino_icons/assets:
-CupertinoIcons.ttf
-
-./build/ios/Debug-iphonesimulator/App.framework/flutter_assets/shaders:
-ink_sparkle.frag    stretch_effect.frag
-
-./build/ios/Debug-iphonesimulator/Flutter:
-
-./build/ios/Debug-iphonesimulator/Flutter.framework:
-_CodeSignature        icudtl.dat            PrivacyInfo.xcprivacy
-Flutter               Info.plist
-Headers               Modules
-
-./build/ios/Debug-iphonesimulator/Flutter.framework/_CodeSignature:
-CodeResources
-
-./build/ios/Debug-iphonesimulator/Flutter.framework/Headers:
-Flutter.h                           FlutterHourFormat.h
-FlutterAppDelegate.h                FlutterMacros.h
-FlutterBinaryMessenger.h            FlutterPlatformViews.h
-FlutterCallbackCache.h              FlutterPlugin.h
-FlutterChannels.h                   FlutterPluginAppLifeCycleDelegate.h
-FlutterCodecs.h                     FlutterSceneDelegate.h
-FlutterDartProject.h                FlutterSceneLifeCycle.h
-FlutterEngine.h                     FlutterTexture.h
-FlutterEngineGroup.h                FlutterViewController.h
-FlutterHeadlessDartRunner.h
-
-./build/ios/Debug-iphonesimulator/Flutter.framework/Modules:
-module.modulemap
-
-./build/ios/Debug-iphonesimulator/path_provider_foundation:
-path_provider_foundation_privacy.bundle path_provider_foundation.framework
-
-./build/ios/Debug-iphonesimulator/path_provider_foundation/path_provider_foundation_privacy.bundle:
-Info.plist            PrivacyInfo.xcprivacy
-
-./build/ios/Debug-iphonesimulator/path_provider_foundation/path_provider_foundation.framework:
-_CodeSignature                          Modules
-Headers                                 path_provider_foundation
-Info.plist                              path_provider_foundation_privacy.bundle
-
-./build/ios/Debug-iphonesimulator/path_provider_foundation/path_provider_foundation.framework/_CodeSignature:
-CodeResources
-
-./build/ios/Debug-iphonesimulator/path_provider_foundation/path_provider_foundation.framework/Headers:
-path_provider_foundation-Swift.h    path_provider_foundation-umbrella.h
-
-./build/ios/Debug-iphonesimulator/path_provider_foundation/path_provider_foundation.framework/Modules:
-module.modulemap                     path_provider_foundation.swiftmodule
-
-./build/ios/Debug-iphonesimulator/path_provider_foundation/path_provider_foundation.framework/Modules/path_provider_foundation.swiftmodule:
-arm64-apple-ios-simulator.abi.json     x86_64-apple-ios-simulator.abi.json
-arm64-apple-ios-simulator.swiftdoc     x86_64-apple-ios-simulator.swiftdoc
-arm64-apple-ios-simulator.swiftmodule  x86_64-apple-ios-simulator.swiftmodule
-Project
-
-./build/ios/Debug-iphonesimulator/path_provider_foundation/path_provider_foundation.framework/Modules/path_provider_foundation.swiftmodule/Project:
-arm64-apple-ios-simulator.swiftsourceinfo  x86_64-apple-ios-simulator.swiftsourceinfo
-
-./build/ios/Debug-iphonesimulator/path_provider_foundation/path_provider_foundation.framework/path_provider_foundation_privacy.bundle:
-Info.plist            PrivacyInfo.xcprivacy
-
-./build/ios/Debug-iphonesimulator/Pods_Runner.framework:
-_CodeSignature Headers        Info.plist     Modules        Pods_Runner
-
-./build/ios/Debug-iphonesimulator/Pods_Runner.framework/_CodeSignature:
-CodeDirectory    CodeRequirements CodeResources    CodeSignature
-
-./build/ios/Debug-iphonesimulator/Pods_Runner.framework/Headers:
-Pods-Runner-umbrella.h
-
-./build/ios/Debug-iphonesimulator/Pods_Runner.framework/Modules:
-module.modulemap
-
-./build/ios/Debug-iphonesimulator/Runner.app:
-__preview.dylib          AppIcon76x76@2x~ipad.png Info.plist
-_CodeSignature           Assets.car               PkgInfo
-AppFrameworkInfo.plist   Base.lproj               Runner
-AppIcon60x60@2x.png      Frameworks               Runner.debug.dylib
-
-./build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature:
-CodeResources
-
-./build/ios/Debug-iphonesimulator/Runner.app/Base.lproj:
-LaunchScreen.storyboardc Main.storyboardc
-
-./build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc:
-01J-lp-oVM-view-Ze5-6b-2t3.nib  UIViewController-01J-lp-oVM.nib
-Info.plist
-
-./build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc:
-BYZ-38-t0r-view-8bC-Xf-vdC.nib  UIViewController-BYZ-38-t0r.nib
-Info.plist
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks:
-App.framework                      sqlite3_flutter_libs.framework
-Flutter.framework                  sqlite3.framework
-path_provider_foundation.framework
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework:
-_CodeSignature App            flutter_assets Info.plist
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature:
-CodeResources
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets:
-AssetManifest.bin         kernel_blob.bin           shaders
-FontManifest.json         NativeAssetsManifest.json vm_snapshot_data
-fonts                     NOTICES.Z
-isolate_snapshot_data     packages
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/fonts:
-MaterialIcons-Regular.otf
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages:
-cupertino_icons
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/cupertino_icons:
-assets
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets:
-CupertinoIcons.ttf
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/shaders:
-ink_sparkle.frag    stretch_effect.frag
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework:
-_CodeSignature        icudtl.dat            PrivacyInfo.xcprivacy
-Flutter               Info.plist
-Headers               Modules
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/_CodeSignature:
-CodeResources
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/Headers:
-Flutter.h                           FlutterHourFormat.h
-FlutterAppDelegate.h                FlutterMacros.h
-FlutterBinaryMessenger.h            FlutterPlatformViews.h
-FlutterCallbackCache.h              FlutterPlugin.h
-FlutterChannels.h                   FlutterPluginAppLifeCycleDelegate.h
-FlutterCodecs.h                     FlutterSceneDelegate.h
-FlutterDartProject.h                FlutterSceneLifeCycle.h
-FlutterEngine.h                     FlutterTexture.h
-FlutterEngineGroup.h                FlutterViewController.h
-FlutterHeadlessDartRunner.h
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/Modules:
-module.modulemap
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework:
-_CodeSignature                          path_provider_foundation
-Info.plist                              path_provider_foundation_privacy.bundle
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/_CodeSignature:
-CodeResources
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/path_provider_foundation_privacy.bundle:
-Info.plist            PrivacyInfo.xcprivacy
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/sqlite3_flutter_libs.framework:
-_CodeSignature       Info.plist           sqlite3_flutter_libs
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/sqlite3_flutter_libs.framework/_CodeSignature:
-CodeResources
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/sqlite3.framework:
-_CodeSignature Info.plist     sqlite3
-
-./build/ios/Debug-iphonesimulator/Runner.app/Frameworks/sqlite3.framework/_CodeSignature:
-CodeResources
-
-./build/ios/Debug-iphonesimulator/Runner.swiftmodule:
-arm64-apple-ios-simulator.abi.json    arm64-apple-ios-simulator.swiftmodule
-arm64-apple-ios-simulator.swiftdoc    Project
-
-./build/ios/Debug-iphonesimulator/Runner.swiftmodule/Project:
-arm64-apple-ios-simulator.swiftsourceinfo
-
-./build/ios/Debug-iphonesimulator/sqlite3:
-sqlite3.framework
-
-./build/ios/Debug-iphonesimulator/sqlite3/sqlite3.framework:
-_CodeSignature Headers        Info.plist     Modules        sqlite3
-
-./build/ios/Debug-iphonesimulator/sqlite3/sqlite3.framework/_CodeSignature:
-CodeResources
-
-./build/ios/Debug-iphonesimulator/sqlite3/sqlite3.framework/Headers:
-sqlite3-umbrella.h sqlite3.h
-
-./build/ios/Debug-iphonesimulator/sqlite3/sqlite3.framework/Modules:
-module.modulemap
-
-./build/ios/Debug-iphonesimulator/sqlite3_flutter_libs:
-sqlite3_flutter_libs.framework
-
-./build/ios/Debug-iphonesimulator/sqlite3_flutter_libs/sqlite3_flutter_libs.framework:
-_CodeSignature       Info.plist           sqlite3_flutter_libs
-Headers              Modules
-
-./build/ios/Debug-iphonesimulator/sqlite3_flutter_libs/sqlite3_flutter_libs.framework/_CodeSignature:
-CodeResources
-
-./build/ios/Debug-iphonesimulator/sqlite3_flutter_libs/sqlite3_flutter_libs.framework/Headers:
-sqlite3_flutter_libs-Swift.h    sqlite3_flutter_libs-umbrella.h
-
-./build/ios/Debug-iphonesimulator/sqlite3_flutter_libs/sqlite3_flutter_libs.framework/Modules:
-module.modulemap                 sqlite3_flutter_libs.swiftmodule
-
-./build/ios/Debug-iphonesimulator/sqlite3_flutter_libs/sqlite3_flutter_libs.framework/Modules/sqlite3_flutter_libs.swiftmodule:
-arm64-apple-ios-simulator.abi.json     x86_64-apple-ios-simulator.abi.json
-arm64-apple-ios-simulator.swiftdoc     x86_64-apple-ios-simulator.swiftdoc
-arm64-apple-ios-simulator.swiftmodule  x86_64-apple-ios-simulator.swiftmodule
-Project
-
-./build/ios/Debug-iphonesimulator/sqlite3_flutter_libs/sqlite3_flutter_libs.framework/Modules/sqlite3_flutter_libs.swiftmodule/Project:
-arm64-apple-ios-simulator.swiftsourceinfo  x86_64-apple-ios-simulator.swiftsourceinfo
-
-./build/ios/iphonesimulator:
-Runner.app
-
-./build/ios/iphonesimulator/Runner.app:
-__preview.dylib          AppIcon76x76@2x~ipad.png Info.plist
-_CodeSignature           Assets.car               PkgInfo
-AppFrameworkInfo.plist   Base.lproj               Runner
-AppIcon60x60@2x.png      Frameworks               Runner.debug.dylib
-
-./build/ios/iphonesimulator/Runner.app/_CodeSignature:
-CodeResources
-
-./build/ios/iphonesimulator/Runner.app/Base.lproj:
-LaunchScreen.storyboardc Main.storyboardc
-
-./build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc:
-01J-lp-oVM-view-Ze5-6b-2t3.nib  UIViewController-01J-lp-oVM.nib
-Info.plist
-
-./build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc:
-BYZ-38-t0r-view-8bC-Xf-vdC.nib  UIViewController-BYZ-38-t0r.nib
-Info.plist
-
-./build/ios/iphonesimulator/Runner.app/Frameworks:
-App.framework                      sqlite3_flutter_libs.framework
-Flutter.framework                  sqlite3.framework
-path_provider_foundation.framework
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/App.framework:
-_CodeSignature App            flutter_assets Info.plist
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature:
-CodeResources
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets:
-AssetManifest.bin         kernel_blob.bin           shaders
-FontManifest.json         NativeAssetsManifest.json vm_snapshot_data
-fonts                     NOTICES.Z
-isolate_snapshot_data     packages
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/fonts:
-MaterialIcons-Regular.otf
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages:
-cupertino_icons
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/cupertino_icons:
-assets
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets:
-CupertinoIcons.ttf
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/shaders:
-ink_sparkle.frag    stretch_effect.frag
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework:
-_CodeSignature        icudtl.dat            PrivacyInfo.xcprivacy
-Flutter               Info.plist
-Headers               Modules
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/_CodeSignature:
-CodeResources
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/Headers:
-Flutter.h                           FlutterHourFormat.h
-FlutterAppDelegate.h                FlutterMacros.h
-FlutterBinaryMessenger.h            FlutterPlatformViews.h
-FlutterCallbackCache.h              FlutterPlugin.h
-FlutterChannels.h                   FlutterPluginAppLifeCycleDelegate.h
-FlutterCodecs.h                     FlutterSceneDelegate.h
-FlutterDartProject.h                FlutterSceneLifeCycle.h
-FlutterEngine.h                     FlutterTexture.h
-FlutterEngineGroup.h                FlutterViewController.h
-FlutterHeadlessDartRunner.h
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/Modules:
-module.modulemap
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework:
-_CodeSignature                          path_provider_foundation
-Info.plist                              path_provider_foundation_privacy.bundle
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/_CodeSignature:
-CodeResources
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/path_provider_foundation.framework/path_provider_foundation_privacy.bundle:
-Info.plist            PrivacyInfo.xcprivacy
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/sqlite3_flutter_libs.framework:
-_CodeSignature       Info.plist           sqlite3_flutter_libs
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/sqlite3_flutter_libs.framework/_CodeSignature:
-CodeResources
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/sqlite3.framework:
-_CodeSignature Info.plist     sqlite3
-
-./build/ios/iphonesimulator/Runner.app/Frameworks/sqlite3.framework/_CodeSignature:
-CodeResources
-
-./build/ios/XCBuildData:
-PIFCache
-
-./build/ios/XCBuildData/PIFCache:
-project   target    workspace
-
-./build/ios/XCBuildData/PIFCache/project:
-PROJECT@v11_mod=17f0f86cd1d64db2db122bf6d93ed32d_hash=bfdfe7dc352907fc980b868725387e98plugins=1OJSG6M1FOV3XYQCBH7Z29RZ0FPR9XDE1-json
-PROJECT@v11_mod=d7c54dcac86a938b4531891f91b1aee2_hash=bfdfe7dc352907fc980b868725387e98plugins=1OJSG6M1FOV3XYQCBH7Z29RZ0FPR9XDE1-json
-
-./build/ios/XCBuildData/PIFCache/target:
-TARGET@v11_hash=0158518b1c6c86dbc13cd2c345be7d27-json
-TARGET@v11_hash=694109fef59aab8f7b802bd93fd82a96-json
-TARGET@v11_hash=6ed3d6840fca31c1ab6a2aa60d7af1d4-json
-TARGET@v11_hash=818f856c6771c2e7254a63422033c63d-json
-TARGET@v11_hash=90d640d3aa6987a4893e0d7e2c2b7cb5-json
-TARGET@v11_hash=b519e67000b2a18eb8db65fa38804474-json
-TARGET@v11_hash=c7dc3a351affdeffae7991d39f304673-json
-TARGET@v11_hash=ff75c5101971655993746cb1dc93f84b-json
-
-./build/ios/XCBuildData/PIFCache/workspace:
-WORKSPACE@v11_hash=(null)_subobjects=c690d5bb0553e3c286f189ca681603ce-json
-WORKSPACE@v11_hash=(null)_subobjects=ed25d2df0aea457608b34d39051fa016-json
-
-./build/native_assets:
-ios
-
-./build/native_assets/ios:
-
-./build/native_hooks:
-
-./ios:
-Flutter            Runner             Runner.xcworkspace
-Pods               Runner.xcodeproj
-
-./ios/Flutter:
-ephemeral                     Flutter.podspec
-flutter_export_environment.sh Generated.xcconfig
-
-./ios/Flutter/ephemeral:
-flutter_lldb_helper.py flutter_lldbinit
-
-./ios/Pods:
-Headers              Manifest.lock        sqlite3
-Local Podspecs       Pods.xcodeproj       Target Support Files
-
-./ios/Pods/Headers:
-
-./ios/Pods/Local Podspecs:
-Flutter.podspec.json                  sqlite3_flutter_libs.podspec.json
-path_provider_foundation.podspec.json
-
-./ios/Pods/Pods.xcodeproj:
-project.pbxproj xcuserdata
-
-./ios/Pods/Pods.xcodeproj/xcuserdata:
-pilt.xcuserdatad
-
-./ios/Pods/Pods.xcodeproj/xcuserdata/pilt.xcuserdatad:
-xcschemes
-
-./ios/Pods/Pods.xcodeproj/xcuserdata/pilt.xcuserdatad/xcschemes:
-Flutter.xcscheme
-path_provider_foundation-path_provider_foundation_privacy.xcscheme
-path_provider_foundation.xcscheme
-Pods-Runner.xcscheme
-Pods-RunnerTests.xcscheme
-sqlite3_flutter_libs.xcscheme
-sqlite3.xcscheme
-xcschememanagement.plist
-
-./ios/Pods/sqlite3:
-sqlite-src-3510100
-
-./ios/Pods/sqlite3/sqlite-src-3510100:
-sqlite_cfg.h     sqlite3.c        sqlite3.h        sqlite3ext.h     sqlite3session.h
-
-./ios/Pods/Target Support Files:
-Flutter                  Pods-Runner              sqlite3
-path_provider_foundation Pods-RunnerTests         sqlite3_flutter_libs
-
-./ios/Pods/Target Support Files/Flutter:
-Flutter.debug.xcconfig   Flutter.release.xcconfig
-
-./ios/Pods/Target Support Files/path_provider_foundation:
-path_provider_foundation-dummy.m
-path_provider_foundation-Info.plist
-path_provider_foundation-prefix.pch
-path_provider_foundation-umbrella.h
-path_provider_foundation.debug.xcconfig
-path_provider_foundation.modulemap
-path_provider_foundation.release.xcconfig
-ResourceBundle-path_provider_foundation_privacy-path_provider_foundation-Info.plist
-
-./ios/Pods/Target Support Files/Pods-Runner:
-Pods-Runner-acknowledgements.markdown
-Pods-Runner-acknowledgements.plist
-Pods-Runner-dummy.m
-Pods-Runner-frameworks-Debug-input-files.xcfilelist
-Pods-Runner-frameworks-Debug-output-files.xcfilelist
-Pods-Runner-frameworks-Profile-input-files.xcfilelist
-Pods-Runner-frameworks-Profile-output-files.xcfilelist
-Pods-Runner-frameworks-Release-input-files.xcfilelist
-Pods-Runner-frameworks-Release-output-files.xcfilelist
-Pods-Runner-frameworks.sh
-Pods-Runner-Info.plist
-Pods-Runner-umbrella.h
-Pods-Runner.debug.xcconfig
-Pods-Runner.modulemap
-Pods-Runner.profile.xcconfig
-Pods-Runner.release.xcconfig
-
-./ios/Pods/Target Support Files/Pods-RunnerTests:
-Pods-RunnerTests-acknowledgements.markdown Pods-RunnerTests.debug.xcconfig
-Pods-RunnerTests-acknowledgements.plist    Pods-RunnerTests.modulemap
-Pods-RunnerTests-dummy.m                   Pods-RunnerTests.profile.xcconfig
-Pods-RunnerTests-Info.plist                Pods-RunnerTests.release.xcconfig
-Pods-RunnerTests-umbrella.h
-
-./ios/Pods/Target Support Files/sqlite3:
-sqlite3-dummy.m          sqlite3-umbrella.h       sqlite3.release.xcconfig
-sqlite3-Info.plist       sqlite3.debug.xcconfig
-sqlite3-prefix.pch       sqlite3.modulemap
-
-./ios/Pods/Target Support Files/sqlite3_flutter_libs:
-sqlite3_flutter_libs-dummy.m          sqlite3_flutter_libs.debug.xcconfig
-sqlite3_flutter_libs-Info.plist       sqlite3_flutter_libs.modulemap
-sqlite3_flutter_libs-prefix.pch       sqlite3_flutter_libs.release.xcconfig
-sqlite3_flutter_libs-umbrella.h
-
-./ios/Runner:
-GeneratedPluginRegistrant.h GeneratedPluginRegistrant.m
-
-./ios/Runner.xcodeproj:
-project.xcworkspace
-
-./ios/Runner.xcodeproj/project.xcworkspace:
-xcshareddata
-
-./ios/Runner.xcodeproj/project.xcworkspace/xcshareddata:
-swiftpm
-
-./ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/swiftpm:
-configuration
-
-./ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/configuration:
-
-./ios/Runner.xcworkspace:
-xcshareddata
-
-./ios/Runner.xcworkspace/xcshareddata:
-swiftpm
-
-./ios/Runner.xcworkspace/xcshareddata/swiftpm:
-configuration
-
-./ios/Runner.xcworkspace/xcshareddata/swiftpm/configuration:
-
-./linux:
-flutter
-
-./linux/flutter:
-ephemeral
-
-./linux/flutter/ephemeral:
-
-./macos:
-Flutter
-
-./macos/Flutter:
-ephemeral
-
-./macos/Flutter/ephemeral:
-flutter_export_environment.sh Flutter-Generated.xcconfig
-
-./windows:
-flutter
-
-./windows/flutter:
-ephemeral
-
-./windows/flutter/ephemeral:
-➜  calendar_scheduler git:(main) ✗ 
+# ======================
+# Flutter / Dart
+# ======================
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-dependencies
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-dependencies
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-dependencies
+.flutter-plugins
+.flutter-plugins-dependencies
+
+.flutter*
+.flutter-plugins
+!.flutter-plugins-dependencies
+
+# Build outputs
+build/
+
+# ======================
+# Android
+# ======================
+android/.gradle/
+android/local.properties
+android/key.properties
+android/**/GeneratedPluginRegistrant.java
+
+# ======================
+# iOS / macOS
+# ======================
+ios/Flutter/ephemeral/
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/**/xcuserdata/
+
+macos/Flutter/ephemeral/
+macos/**/xcuserdata/
+
+# ======================
+# Linux / Windows
+# ======================
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# ======================
+# IDE
+# ======================
+.idea/
+.vscode/
+*.iml
+
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
