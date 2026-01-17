@@ -1,8 +1,0 @@
-{
-  "elements": {},
-  "imports": [
-    "package:calendar_scheduler/const/colors.dart",
-    "package:flutter/material.dart",
-    "package:table_calendar/table_calendar.dart"
-  ]
-}
