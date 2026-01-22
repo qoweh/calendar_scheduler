@@ -63,3 +63,9 @@ windows/flutter/ephemeral/
 # ======================
 .DS_Store
 Thumbs.db
+
+
+firebase*
+
+
+google*
